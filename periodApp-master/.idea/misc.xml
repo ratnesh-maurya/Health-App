@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android project/periodApp/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/layout/activity_new.xml" value="0.23645833333333333" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/layout/activity_sign.xml" value="0.23645833333333333" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/layout/activity_signup.xml" value="0.23645833333333333" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/layout/activity_splash.xml" value="0.23645833333333333" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2425" />
+        <entry key="..\:/android project/periodApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2425" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/backgroundedit.xml" value="0.2265" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/fbbackground.xml" value="0.2265" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/googlebackground.xml" value="0.2265" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/gradient.xml" value="0.2265" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11" />
+        <entry key="..\:/android project/project 2/app/src/main/res/drawable/new_gradient.xml" value="0.2265" />
+        <entry key="..\:/android project/project 2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/android project/project 2/app/src/main/res/layout/activity_new.xml" value="0.1493421052631579" />
+        <entry key="..\:/android project/project 2/app/src/main/res/layout/activity_sign.xml" value="0.152" />
+        <entry key="..\:/android project/project 2/app/src/main/res/layout/activity_signup.xml" value="0.144" />
+        <entry key="..\:/android project/project 2/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

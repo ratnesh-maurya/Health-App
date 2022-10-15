@@ -9,16 +9,65 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YoutubeFood">
         <activity
-            android:name="com.example.periodapp.NewActivity"
+            android:name=".Yoga7Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga6Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga5Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga4Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga3Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga2Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Yoga"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NewActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.periodapp.SignActivity"
+            android:name=".SignActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.periodapp.SignupActivity"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.periodapp.splash_activity"
+            android:name=".splash_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +76,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.periodapp.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
     </application>
 

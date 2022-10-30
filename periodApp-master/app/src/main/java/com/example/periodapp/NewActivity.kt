@@ -26,7 +26,7 @@ class NewActivity : AppCompatActivity() {
         }
         imageButton.setOnClickListener {
 
-            val intent = Intent(this,Yoga::class.java)
+            val intent = Intent(this,YogaAgegroup::class.java)
             startActivity(intent)
         }
 

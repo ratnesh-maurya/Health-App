@@ -8,6 +8,7 @@ import android.widget.ImageButton
 class NewActivity : AppCompatActivity() {
     lateinit var imageButton: ImageButton
     private lateinit var Maps : ImageButton
+    private lateinit var track : ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new)
@@ -19,9 +20,16 @@ class NewActivity : AppCompatActivity() {
 //        actionBar!!.setBackgroundDrawable(colorDrawable)
         imageButton=findViewById(R.id.yoga)
         Maps=findViewById(R.id.maps)
+        track=findViewById(R.id.period)
+
         Maps.setOnClickListener {
 
             val intent = Intent(this,MapsActivity::class.java)
+            startActivity(intent)
+        }
+        track.setOnClickListener {
+
+            val intent = Intent(this,period_tracker::class.java)
             startActivity(intent)
         }
         imageButton.setOnClickListener {

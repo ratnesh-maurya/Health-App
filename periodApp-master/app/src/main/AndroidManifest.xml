@@ -9,6 +9,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YoutubeFood">
         <activity
+            android:name=".period_tracked"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".period_tracker"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Yoga45"
             android:exported="false">
             <meta-data

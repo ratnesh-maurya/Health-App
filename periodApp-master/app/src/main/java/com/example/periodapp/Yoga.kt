@@ -16,7 +16,7 @@ class Yoga : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga)
-        title="yoga for 18-45 years"
+        title="yoga for 18-45 years  ,"
 
 
 

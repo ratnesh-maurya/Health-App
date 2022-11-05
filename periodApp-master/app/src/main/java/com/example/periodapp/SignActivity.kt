@@ -13,6 +13,7 @@ class SignActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign)
         title="Sign In"
+        getSupportActionBar()?.hide()
 //
 //        val actionBar: ActionBar?
 //        actionBar = supportActionBar

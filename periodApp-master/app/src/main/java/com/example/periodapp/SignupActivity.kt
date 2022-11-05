@@ -13,7 +13,7 @@ class SignupActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
-
+        getSupportActionBar()?.hide()
         title="Register"
 
 //        val actionBar: ActionBar?

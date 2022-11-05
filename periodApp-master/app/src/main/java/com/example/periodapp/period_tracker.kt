@@ -11,7 +11,7 @@ class period_tracker : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_period_tracker)
-
+        getSupportActionBar()?.hide()
 
 
         tracking =findViewById(R.id.next)

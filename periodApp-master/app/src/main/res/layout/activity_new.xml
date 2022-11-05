@@ -13,24 +13,25 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785"
+        app:layout_constraintVertical_bias="0.925"
         app:srcCompat="@drawable/back" />
 
     <ImageButton
         android:id="@+id/period"
         android:layout_width="138dp"
         android:layout_height="118dp"
-        android:layout_marginStart="136dp"
         android:background="@drawable/one"
         android:scaleType="centerCrop"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.084" />
 
     <ImageButton
         android:id="@+id/yoga"
@@ -43,10 +44,10 @@
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/period"
-        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/period"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.007" />
 
     <ImageButton
         android:id="@+id/maps"
@@ -63,7 +64,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/yoga"
         app:layout_constraintTop_toBottomOf="@+id/period"
-        app:layout_constraintVertical_bias="0.352" />
+        app:layout_constraintVertical_bias="0.262" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -77,6 +78,44 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/grl" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Period Tracker"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/period"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearest Washroom"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/maps"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/yoga"
+        app:layout_constraintVertical_bias="0.064" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

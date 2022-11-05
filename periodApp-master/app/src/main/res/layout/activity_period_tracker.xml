@@ -14,6 +14,7 @@
         android:background="@drawable/backgroundedit"
         android:gravity="center"
         android:text="3. HOW LONG IS YOUR MENSTRUAL CYCLE?"
+        android:textStyle="bold"
         android:textColor="@color/design_default_color_on_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,11 +29,12 @@
         android:layout_height="40dp"
         android:background="@drawable/backgroundedit"
         android:gravity="center"
+        android:textStyle="bold"
         android:text="2. HOW MANY DAYS DID YOUR PERIOD LAST?"
         android:textColor="@color/design_default_color_on_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.373" />
@@ -41,6 +43,7 @@
         android:id="@+id/textView10"
         android:layout_width="293dp"
         android:layout_height="38dp"
+        android:textStyle="bold"
         android:background="@drawable/backgroundedit"
         android:gravity="center"
         android:text="1,WHEN DID YOUR LAST PERIOD START?"
@@ -54,25 +57,25 @@
 
     <EditText
         android:id="@+id/editTextDate2"
-        android:layout_width="223dp"
-        android:layout_height="56dp"
+        android:layout_width="224dp"
+        android:layout_height="41dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_states"
         android:ems="10"
-        android:hint="6-8"
         android:gravity="center"
+        android:hint="6-8"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:layout_constraintVertical_bias="0.104" />
 
     <EditText
         android:id="@+id/editTextDate4"
-        android:layout_width="223dp"
-        android:layout_height="56dp"
+        android:layout_width="224dp"
+        android:layout_height="41dp"
         android:background="@drawable/button_states"
         android:ems="10"
         android:gravity="center"
@@ -80,26 +83,28 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <EditText
         android:id="@+id/editTextDate3"
-        android:layout_width="223dp"
-        android:layout_height="56dp"
+        android:layout_width="224dp"
+        android:layout_height="41dp"
         android:background="@drawable/button_states"
         android:ems="10"
-        android:hint="Date"
-
         android:gravity="center"
+
+        android:hint="Date"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintVertical_bias="0.081" />
 
     <Button
         android:id="@+id/next"
@@ -109,10 +114,9 @@
         android:text="NEXt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate4"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.419" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

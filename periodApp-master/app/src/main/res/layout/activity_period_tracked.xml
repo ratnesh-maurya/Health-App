@@ -21,11 +21,11 @@
         app:srcCompat="@drawable/grl" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/display"
         android:layout_width="114dp"
         android:layout_height="110dp"
         android:gravity="center"
-        android:text="14 "
+        android:hint="34"
         android:textColor="@color/white"
         android:textSize="100sp"
 
@@ -38,17 +38,18 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="278dp"
-        android:layout_height="261dp"
+        android:layout_width="383dp"
+        android:layout_height="198dp"
         android:gravity="center"
         android:text="Days left"
-        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textColor="@color/facebook"
         android:textSize="90sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.642" />
+        app:layout_constraintVertical_bias="0.597" />
 </androidx.constraintlayout.widget.ConstraintLayout>

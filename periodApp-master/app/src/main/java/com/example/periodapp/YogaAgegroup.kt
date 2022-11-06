@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
 
 class YogaAgegroup : AppCompatActivity() {
@@ -30,10 +31,11 @@ class YogaAgegroup : AppCompatActivity() {
                 val intent = Intent(this,Yoga::class.java)
                 startActivity(intent)
             }
-            if(ans>45){
+            if(ans>45 && ans<65){
                 val intent = Intent(this,Yoga45::class.java)
                 startActivity(intent)
             }
+
         }
 
 

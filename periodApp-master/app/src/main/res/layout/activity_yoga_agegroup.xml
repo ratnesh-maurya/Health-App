@@ -58,7 +58,8 @@
                 android:layout_marginEnd="81dp"
                 android:ems="10"
                 android:hint="Enter your age "
-                android:inputType="textPersonName"
+                android:inputType="number"
+
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/Clickme"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,6 +82,8 @@
                 android:text="Click me" />
 
         </RelativeLayout>
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

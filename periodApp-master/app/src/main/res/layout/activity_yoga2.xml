@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:gravity="center"
-            android:fontFamily="serif"
+            android:fontFamily="casual"
+            android:textColor="@color/purple_700"
             android:text="Since the lower half of the body may feel heavy during menstruation, seated poses can be especially helpful. You may stay in each pose for several minutes.
 
 Baddha Konasana, the Cobbler's Pose, opens up the pelvic region. For a gentler version, come into a forward bend using a bolster or several folded blankets to support your torso. This may help you relax even more."

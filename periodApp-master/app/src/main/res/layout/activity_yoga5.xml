@@ -24,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:fontFamily="serif"
+            android:fontFamily="casual"
+            android:textColor="@color/purple_500"
             android:text="To do the pose:
 
 Extend your right leg and place the bottom of your left foot on your right inner thigh.

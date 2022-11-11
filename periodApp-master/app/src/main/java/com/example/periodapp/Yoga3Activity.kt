@@ -8,5 +8,6 @@ class Yoga3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga3)
         title="Head to Knee Pose (Janu Sirsasana)"
+        getSupportActionBar()?.hide()
     }
 }

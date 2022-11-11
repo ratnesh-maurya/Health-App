@@ -18,7 +18,7 @@ class YogaAgegroup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga_agegroup)
-
+        getSupportActionBar()?.hide()
         edittext=findViewById(R.id.Age)
         button4=findViewById(R.id.Clickme)
         button4.setOnClickListener {

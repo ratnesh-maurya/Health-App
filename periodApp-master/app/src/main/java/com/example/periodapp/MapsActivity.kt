@@ -41,7 +41,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(kanpur))
 
         mMap.addCircle( CircleOptions()
-            .center(kanpur).radius(1000.0).fillColor(Color.BLUE).strokeColor(Color.MAGENTA))
+            .center(kanpur).radius(10.0).fillColor(Color.BLUE).strokeColor(Color.MAGENTA))
 
        
     }

@@ -8,5 +8,6 @@ class Yoga45 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga45)
         title="yoga for 45 yr above"
+        getSupportActionBar()?.hide()
     }
 }

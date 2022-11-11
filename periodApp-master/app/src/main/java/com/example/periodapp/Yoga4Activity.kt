@@ -8,6 +8,7 @@ class Yoga4Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga4)
         title="Seated Straddle (Upavistha Konasana)\n"
+        getSupportActionBar()?.hide()
 
     }
 }

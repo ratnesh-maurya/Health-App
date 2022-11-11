@@ -8,5 +8,6 @@ class Yoga10 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga10)
         title="yoga for 10-18 yr "
+        getSupportActionBar()?.hide()
     }
 }

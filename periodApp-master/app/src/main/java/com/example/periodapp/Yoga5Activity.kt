@@ -8,5 +8,6 @@ class Yoga5Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga5)
         title="Seated Forward Bend (Paschimottanasana)"
+        getSupportActionBar()?.hide()
     }
 }

@@ -12,7 +12,7 @@ class Yoga2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_yoga2)
         title="Cobbler's Pose (Baddha Konasana)\n"
-
+        getSupportActionBar()?.hide()
 
     }
 }

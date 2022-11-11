@@ -10,5 +10,6 @@ class Yoga7Activity : AppCompatActivity() {
         setContentView(R.layout.activity_yoga7)
 
         title="Goddess Pose (Supta Baddha Konasana)\n"
+        getSupportActionBar()?.hide()
     }
 }

@@ -61,8 +61,8 @@
 
         <Button
             android:id="@+id/skip"
-            android:layout_width="46dp"
-            android:layout_height="21dp"
+            android:layout_width="86dp"
+            android:layout_height="33dp"
             android:background="@drawable/button_states"
             android:backgroundTint="#F1F1F1"
             android:fontFamily="sans-serif-condensed"

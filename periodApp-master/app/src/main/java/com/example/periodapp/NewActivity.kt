@@ -14,10 +14,7 @@ class NewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new)
         getSupportActionBar()?.hide()
 
-//        val actionBar: ActionBar?
-//        actionBar = supportActionBar
-//        val colorDrawable = ColorDrawable(Color.parseColor("#DF5F56"))
-//        actionBar!!.setBackgroundDrawable(colorDrawable)
+
         imageButton=findViewById(R.id.yoga)
         Maps=findViewById(R.id.maps)
         track=findViewById(R.id.period)
